@@ -1,9 +1,7 @@
 // base styles
 
-main {
-  margin: 10px 0;
-}
-
-section {
-  padding: 8rem 0 7rem;
+.columns, .column {
+  background: #F4F4F4;
+  border: 1px #CCC solid;
+  padding: 10px;
 }
