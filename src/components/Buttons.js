@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Buttons = () => {
   return (
@@ -13,7 +14,9 @@ const Buttons = () => {
 
       <div>
         {/* primary buttons */}
-        <button className="button-primary">Regular Button</button>
+        <Link to='/'>
+          <button className="button-primary">Regular Button</button>
+        </Link>
         <input class="button-primary" type="submit" value="Submit" />
         <input class="button-primary" type="button" value="Another Submit"/>
         <a href="#" className="button button-primary">Link as Button</a>
